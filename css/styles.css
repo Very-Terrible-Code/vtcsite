@@ -4,9 +4,9 @@ body {
   font-family: 'Helvetica';
   margin: 0;
   padding: 0;
-  -webkit-font-smoothing: antialiased;
+  /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility; */
 }
 
 .content {
