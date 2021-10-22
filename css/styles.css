@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
   font-family: Calibri, Segoe UI, Helvetica, Arial, sans-serif;
   margin: 0;
@@ -5,6 +7,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+}
+
+.content {
+  padding: 5px 50px;
 }
 
 h1.retro{
@@ -47,4 +53,8 @@ h1.retro{
   float: right;
   padding: 6px 14px;
   object-fit: scale-down;
+}
+
+.t-center {
+  text-align: center;
 }
