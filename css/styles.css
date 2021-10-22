@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-  font-family: Calibri, Segoe UI, Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica';
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -10,14 +10,9 @@ body {
 }
 
 .content {
-  padding: 5px 50px;
+  padding: 50px 5px;
 }
 
-h1.retro{
-    font-family: 'Press Start 2P', cursive;
-    margin: 0;
-    padding: 0;
-}
 .banner, .banner > .banner-image {
   display: block;
   margin-left: auto;
@@ -57,4 +52,8 @@ h1.retro{
 
 .t-center {
   text-align: center;
+}
+
+.retro {
+  font-family: 'Press Start 2P';
 }
