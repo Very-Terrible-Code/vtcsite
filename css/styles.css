@@ -1,5 +1,5 @@
 body {
-  font-family: "Press Start 2P", Calibri, Segoe UI, Helvetica, Arial, sans-serif;
+  font-family: Calibri, Segoe UI, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -7,7 +7,11 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-
+retrotexto{
+    font-family: "Press Start 2P";
+    margin: 0;
+    padding: 0;
+}
 .banner, .banner > .banner-image {
   display: block;
   margin-left: auto;
