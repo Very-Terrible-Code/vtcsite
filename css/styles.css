@@ -11,6 +11,7 @@ body {
 
 .content {
   padding: 50px 50px;
+  text-align: center;
 }
 
 .banner, .banner > .banner-image {
