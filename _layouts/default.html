@@ -2,7 +2,16 @@
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <title>VTC Website</title>
+      <title>{{ page.title }} | {{ site.title }}</title>
+      <meta property="og:title" content="Welcome">
+      <meta property="og:locale" content="en_US">
+      <meta name="description" content="{{ page.title }} | {{ site.title }}">
+      <meta property="og:description" content="{{ page.title }} | {{ site.title }}">
+      <link rel="canonical" href="https://vtc.pipewarp.co.uk/">
+      <meta property="og:url" content="https://vtc.pipewarp.co.uk/">
+      <meta property="og:site_name" content="Very Terrible Code">
+      <meta property="og:image" content="https://vtc.pipewarp.co.uk/icon.png">
+      <link rel="icon" type="image/png" href="/icon.png"/>
       <link rel="stylesheet" href="/css/styles.css" media="all">
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
